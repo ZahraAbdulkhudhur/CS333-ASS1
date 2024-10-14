@@ -2,121 +2,93 @@
   <head>
     <meta k="viewport" content="widht=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css">
+    
     <!--Create Title to the page-->
-    <title>kindergarten class</title>
+    <title>Kindergarten Class</title>
   </head>
   <body>
-    <!--Add header to the page-->
-    <header>
-      <!--Create a welcome message to the page-->
-      <h1>Welcome to the kindergarten Class Page</h1>
+
+    <div class="container">
+
+      <!--Add header to the page-->
+      <header>
+        <!--Create a welcome message to the page-->
+        <h1>Welcome to the kindergarten Class Page !</h1>
+      </header>
 
       <!--Create navigation-->
       <nav>
         <!--Create Content Sections-->
-        <ul>
-          <li>
-            <a> Welcome</a>
-          </li>
-
-          <li>
-            <a> Weekly schedule</a>
-          </li>
-
-          <li>
-            <a> Photo gallery</a>
-          </li>
-
-          <li>
-            <a> Parent resources</a>
-          </li>
-
-          <li>
-            <a> Information about the teacher</a>
-          </li>
-        </ul>
+        <a href="#schedule" class="mybutton"> Weekly Schedule</a>
+        <a href="#activity" class="mybutton"> Class Activities</a>
+        <a href="#resources" class="mybutton"> Parent Resources</a>
+        <a href="#Info" class="mybutton"> Teachers Info</a>
       </nav>
+      
       <!--Add main content areas-->
-      <main>
-        <section>
-          <h2>
-            Welcome
-            <p>Hello and wellcome to the kindergarten class</p>
-          </h2>
-          <h2>
-            Weekly schedule
-            <table style="width:100%">
-              <tr>
-                <th>Day</th>
-                <th>Metrial</th>
-                <th>Teacher name</th>
-                <th>Contact number</th>
-              </tr>
-              <tr>
-                <td>Sunday</td>
-                <td>Arabic</td>
-                <td>Sarah</td>
-                <td>33885442</td>
-              </tr>
-              <tr>
-                <td>Monday</td>
-                <td>English</td>
-                <td>Huda</td>
-                <td>39985442</td>
-              </tr>
-              <tr>
-                <td>Tuseday</td>
-                <td>Math</td>
-                <td>Fatima</td>
-                <td>33885552</td>
-              </tr>
-              <tr>
-                <td>Wednsday</td>
-                <td>Fun trip</td>
-                <td>Zaina</td>
-                <td>39985442</td>
-              </tr>
-              <tr>
-                <td>Thursday</td>
-                <td>All metrials </td>
-                <td>Zaina</td>
-                <td>39985442</td>
-              </tr>
-            </table>
-            
-          </h2>
-          <!--Create placeholder images-->
-          <h2>
-            Photo gallery
-            <img src="https://placehold.co/150x200/blue?Text=Fatima" />
-            <img src="https://placehold.co/150x200/grey?Text=Sarah" />
-            <img src="https://placehold.co/150x200/black?Text=Huda" />
-            <img src="https://placehold.co/150x200/white?Text=Zaina"/>
-          </h2>
-          <h2>
-            Parent resources
-            <p>Here you can find any announcements</p>
-          </h2>
-          <h2>
-            Information about the teacher
-            <p>Teacher Fatima (Math):
-              Contact No:33885552
-              Teacher Sarah (Arabic):
-              Contact No:33885442
-              Teacher Huda (English):
-              Contact No:39985442
-              Teacher Zaina (Manager):
-              Contact No:39985442
-            </p>
-          </h2>
-        </section>
-      </main>
-      <footer>
-        <p>
-Contact us :
-Phone No.:35933699
-      </p>
+      <main class="mytable">
+        <h2 id="schedule">Weekly schedule</h2>
+        <table>
+          <tr>
+            <td>Sunday</td>
+            <td>Arabic</td>
+            <td>Math</td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td>Monday</td>
+            <td>English</td>
+            <td>PE</td>
+            <td>Math</td>
+          </tr>
+          <tr>
+            <td>Tuseday</td>
+            <td>Art</td>
+            <td>Arabic</td>
+            <td>History</td>
+          </tr>
+          <tr>
+            <td>Wednsday</td>
+            <td>Math</td>
+            <td>PE</td>
+            <td>English</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Arabic</td>
+            <td>History</td>
+            <td>Art</td>
+          </tr>
+        </table>
+      </main>  
+
+      <div>
+        <!-- Create placeholder images -->
+        <h2 id="activity">Class Activities</h2>
+        <a href="#"><img src="https://placehold.co/200x200/orange/white"/></a>
+        <a href="#"><img src="https://placehold.co/200x200/orange/white"/></a>
+        <a href="#"><img src="https://placehold.co/200x200/orange/white"/></a>
+        <a href="#"><img src="https://placehold.co/200x200/orange/white"/></a>
+      </div>
+
     
-    </header>
+
+      <div id="myID">
+        <h2 id="resources">Parent Resources</h2>
+        <p>No Announcements Found</p>
+      </div>
+
+      <section>
+        <h2 id="Info">Information About Teachers</h2>
+        <p>Teacher Fatima (Math): Contact No:33885552, Teacher Sarah (Arabic): Contact No:33885442</p>
+        <p>Teacher Huda (English): Contact No:39985442, Teacher Zaina (History): Contact No:39985442</p>
+        <p>Teacher Zainab (PE): Contact No:39985442, Teacher Noor (Art): Contact No:39985442</p>
+      </section>
+
+      <footer>
+        <a href="mailto:kindergarten@gmail.com" target="_blank"><p class="mybutton">Contact Us</p></a>
+      </footer>  
+
+    </div>
   </body>
 </html>
