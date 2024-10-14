@@ -109,15 +109,18 @@ section{
     padding-top: 30px;
     padding-bottom: 50px;
 }
+/* create responsive designs for desktop and mobile */
 
 @media (max-width:500px) and (min-width:100px) {
     body {
-    font-size: 10px;
+   font-size:medium;
+   background-color: lightyellow;
     }
 }
 
 @media (max-width:500px) and (min-width: 700px) {
     body {
-    font-size: 15px;
+    font-size: large;
+    background-color: lightyellow;
     }
     }
